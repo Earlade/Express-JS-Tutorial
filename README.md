@@ -34,7 +34,7 @@ For more complex examples, consider using GitHub Gists. You can create a Gist an
 
 ```markdown
 Check out this [Gist](https://gist.github.com/username/gistid) for an example of C++ code.
-
+```
 
 
 2. **Different Languages for Different Themes**:
@@ -45,7 +45,7 @@ You can represent different themes by using different languages in code blocks, 
 
 ```markdown
 ### C++ Code Example (Default Theme)
-
+```
 ```cpp
 #include <iostream>
 using namespace std;
@@ -55,3 +55,4 @@ int main() {
     return 0;
 }
 
+```
