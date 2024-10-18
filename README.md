@@ -44,3 +44,6 @@ Check out this [Gist](https://gist.github.com/username/gistid) for an example of
 ```html
 <h1>Hello World!</h1>
 ```
+
+
+pandoc -f markdown -t html5 -o output.html input.md -c style.css
