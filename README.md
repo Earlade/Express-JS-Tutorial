@@ -27,4 +27,16 @@ int main() {
 }
 ```
 
+<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    <span style="color: blue;">This is a simulated editor block.</span>
+    <pre>
+        #include &lt;iostream&gt;
+        using namespace std;
+
+        int main() {
+            cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
+            return 0;
+        }
+    </pre>
+</div>
 
