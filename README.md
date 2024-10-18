@@ -1,5 +1,4 @@
-$${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}{github}}$$
-
+$$-Hello Visitors$$
 ## Example of a Python Function
 
 Here’s how you would write a simple function in Python:
