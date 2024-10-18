@@ -27,16 +27,11 @@ int main() {
 }
 ```
 
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-    <span style="color: blue;">This is a simulated editor block.</span>
-    <pre>
-        #include &lt;iostream&gt;
-        using namespace std;
 
-        int main() {
-            cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
-            return 0;
-        }
-    </pre>
-</div>
+### 3. **Using Gists or Embedded Code**
+
+For more complex examples, consider using GitHub Gists. You can create a Gist and then link to it in your Markdown file.
+
+```markdown
+Check out this [Gist](https://gist.github.com/username/gistid) for an example of C++ code.
 
