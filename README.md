@@ -41,10 +41,3 @@ Check out this [Gist](https://gist.github.com/username/gistid) for an example of
 ```html
 <h1>Hello World!</h1>
 ```
-
-int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
-}
-
-```
