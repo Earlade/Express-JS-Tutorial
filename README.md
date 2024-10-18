@@ -1,5 +1,5 @@
 $$
-- Hello Visitor
+## Hello
 $$
 ## Example of a Python Function
 
