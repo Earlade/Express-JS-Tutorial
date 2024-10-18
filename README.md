@@ -10,6 +10,8 @@ def greet(name):
     print(f"Hello, {name}!")
 
 ```
+
+
 ## Example of a C++ Function
 
 Here’s a simple C++ function that prints a greeting:
