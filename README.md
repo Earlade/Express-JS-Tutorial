@@ -8,4 +8,6 @@ You can use the diff language tag to generate some colored text:
 ! text in orange
 # text in gray
 @@ text in purple (and bold)@@
+
+<code style="color : aqua">text</code>
 ```
