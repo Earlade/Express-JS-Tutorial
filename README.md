@@ -36,19 +36,11 @@ For more complex examples, consider using GitHub Gists. You can create a Gist an
 Check out this [Gist](https://gist.github.com/username/gistid) for an example of C++ code.
 ```
 
+### HTML Example
 
-2. **Different Languages for Different Themes**:
-
-You can represent different themes by using different languages in code blocks, as each language has its own highlighting style.
-
-#### Example: C++ with Different Visual Styles
-
-```markdown
-### C++ Code Example (Default Theme)
+```html
+<h1>Hello World!</h1>
 ```
-```cpp
-#include <iostream>
-using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
