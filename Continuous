@@ -14,7 +14,6 @@ signed main () {
     }
     ob[n+1] = ob[n-1];
     ob[n+2] = ob[n];
-    cout << ob[n+2] << endl;
     // for (int i = 0; i <= n; i++) {
     //     cout << i << " : " << ob[i] << endl;
     // }
@@ -26,36 +25,37 @@ signed main () {
     //     cout << i << " ";
     // }
     // cout << endl;
-    // for (int i = 1; i <= n; i++) {
-    //     if (i % 2 != 0) {
-    //         if (i == 1) {
-    //             dp[i][0] = 1;
-    //             dp[i][1] = 1;
-    //         }
-    //         else {
-    //             if (ob[i] - ob[i-2] == 0 or ob[i] - ob[i-2] == 2 or ob[i-2] - ob[i] == 2) {
-    //                 dp[i][0] = dp[i-1][0] + 1;
-    //                 dp[i][1] = dp[i-1][1] + 1;
-    //             }
-    //             else {
-    //                 dp[i][0] = 1;
-    //                 dp[i][1] = dp[i-1][1] + 1;
-    //             }
-    //         }
-    //     }
-    //     else {
-    //         dp[i][0] = dp[i-1][0] + 1;
-    //         if (ob[i-1] - ob[i+1] == 0 or ob[i-1] - ob[i+1] == 2 or ob[i+1] - ob[i-1] == 2) {
-    //             dp[i][1] = dp[i-1][1] + 1;
-    //         }
-    //         else dp[i][1] = 1;
-    //     }
-    // }
-    // for (int i = 0; i <= n; i++) {
-    //     cout << dp[i][0] << " ";
-    // }
-    // cout << endl;
-    // for (int i = 0; i <= n; i++) {
-    //     cout << dp[i][1] << " ";
-    // }
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 != 0) {
+            if (i == 1) {
+                dp[i][0] = 1;
+                dp[i][1] = 1;
+            }
+            else {
+                if (ob[i] - ob[i-2] == 0 or ob[i] - ob[i-2] == 2 or ob[i-2] - ob[i] == 2) {
+                    dp[i][0] = dp[i-1][0] + 1;
+                    dp[i][1] = dp[i-1][1] + 1;
+                }
+                else {
+                    dp[i][0] = 1;
+                    dp[i][1] = dp[i-1][1] + 1;
+                }
+            }
+        }
+        else {
+            dp[i][0] = dp[i-1][0] + 1;
+            if (ob[i-1] - ob[i+1] == 0 or ob[i-1] - ob[i+1] == 2 or ob[i+1] - ob[i-1] == 2) {
+                dp[i][1] = dp[i-1][1] + 1;
+            }
+            else dp[i][1] = 1;
+        }
+    }
+    int maxi = 0;
+    for (int i = 0; i <= n; i++) {
+        maxi = max(maxi, dp[i][0]);
+    }
+    for (int i = 0; i <= n; i++) {
+        maxi = max(maxi, dp[i][1]);
+    }
+    cout << maxi;
 }
