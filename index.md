@@ -8,7 +8,7 @@ With **npm**
 ```cmd
 npm install express --save
 ```
-<br>
+
 With **yarn**
 ``` cmd
 yarn add express
