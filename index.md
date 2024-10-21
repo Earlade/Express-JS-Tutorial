@@ -3,6 +3,7 @@
 
 
 ## Installation
+With $npm
 ```cmd
 npm install express --save
 ```
