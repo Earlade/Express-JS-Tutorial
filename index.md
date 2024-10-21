@@ -3,9 +3,7 @@
 
 
 ## Installation
-```
-With +npm
-```
+With **npm**
 ```cmd
 npm install express --save
 ```
