@@ -3,4 +3,6 @@
 
 
 ## Installation
-Hello
+```cmd
+npm install express --save
+```
