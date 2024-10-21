@@ -1,6 +1,6 @@
 ## Table of Contents
 1. [Installation](#installation)
 
-<br/>
+<br>
 ## Installation
 Hello
