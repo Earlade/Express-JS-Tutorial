@@ -13,3 +13,17 @@ With **yarn**
 ``` cmd
 yarn add express
 ```
+
+<br>
+
+If using npm installation, run this:
+
+``` cmd
+npm init
+```
+
+If using yarn installation, run this:
+
+``` cmd
+yarn init
+```
