@@ -1,6 +1,7 @@
 ## Table of Contents
 1. [Introduction to Express JS](#introduction-to-express-js)
 2. [Installation](#installation)
+3. [Getting Started](#getting-started) 
 
 <br>
 
